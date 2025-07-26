@@ -172,7 +172,8 @@ const Products = () => {
           position: "relative",
           zIndex: 1,
         }}>
-          {products.map((p, i) => (
+          {products.map((p, i) => ( 
+
             <div key={i}
               onClick={() => setSelected(p)}
               style={{
