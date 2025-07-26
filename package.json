@@ -3,16 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-"scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview"
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@appletosolutions/reactbits": "^1.0.3",
     "@clerk/clerk-react": "^5.35.3",
     "@gsap/react": "^2.1.2",
-    "@react-three/drei": "^10.6.0",
     "@react-three/fiber": "^9.2.0",
     "@studio-freight/lenis": "^1.0.42",
     "@tailwindcss/vite": "^4.1.11",
@@ -32,7 +30,6 @@
     "slick-carousel": "^1.8.1",
     "swiper": "^11.2.10",
     "tailwindcss": "^4.1.11",
-    "three": "^0.150.1",
     "three-stdlib": "^2.36.0"
   },
   "devDependencies": {
